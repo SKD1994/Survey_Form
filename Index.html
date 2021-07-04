@@ -5,10 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Survey Form</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <link rel="stylesheet" href="Index.css">
+    <link rel="stylesheet" href="Survey_form.css">
 </head>
 
 <body>
@@ -77,42 +77,44 @@
             <p>
                 <strong>How Likely are you to<span class="astri">*</span></strong>
             </p>
-            <table cellspacing=0>
-                <tbody>
-                    <tr class="rowdata">
-                        <td></td>
-                        <td class="tddata">Very Unlikely</td>
-                        <td class="tddata">Unlikely</td>
-                        <td class="tddata">Neutral</td>
-                        <td class="tddata">Likely</td>
-                        <td class="tddata">Very Likely</td>
-                    </tr>
-                    <tr class="rowdata" style="background-color: rgb(226, 226, 226);">
-                        <td>Buy from us again</td>
-                        <td class="tddata"><input type="radio" class="like1" name="like1"></td>
-                        <td class="tddata"><input type="radio" class="like1" name="like1"></td>
-                        <td class="tddata"><input type="radio" class="like1" name="like1"></td>
-                        <td class="tddata"><input type="radio" class="like1" name="like1"></td>
-                        <td class="tddata"><input type="radio" class="like1" name="like1"></td>
-                    </tr>
-                    <tr class="rowdata">
-                        <td>Recommend our product to other</td>
-                        <td class="tddata"><input type="radio" class="like2" name="like2"></td>
-                        <td class="tddata"><input type="radio" class="like2" name="like2"></td>
-                        <td class="tddata"><input type="radio" class="like2" name="like2"></td>
-                        <td class="tddata"><input type="radio" class="like2" name="like2"></td>
-                        <td class="tddata"><input type="radio" class="like2" name="like2"></td>
-                    </tr>
-                    <tr class="rowdata" style="background-color: rgb(226, 226, 226);">
-                        <td>Recommend our company to other</td>
-                        <td class="tddata"><input type="radio" class="like3" name="like3"></td>
-                        <td class="tddata"><input type="radio" class="like3" name="like3"></td>
-                        <td class="tddata"><input type="radio" class="like3" name="like3"></td>
-                        <td class="tddata"><input type="radio" class="like3" name="like3"></td>
-                        <td class="tddata"><input type="radio" class="like3" name="like3"></td>
-                    </tr>
-                </tbody>
-            </table>
+            <div>
+                <table cellspacing=0 class="table_2">
+                    <tbody>
+                        <tr class="rowdata">
+                            <td></td>
+                            <td class="tddata">Very Unlikely</td>
+                            <td class="tddata">Unlikely</td>
+                            <td class="tddata">Neutral</td>
+                            <td class="tddata">Likely</td>
+                            <td class="tddata">Very Likely</td>
+                        </tr>
+                        <tr class="rowdata" style="background-color: rgb(226, 226, 226);">
+                            <td>Buy from us again</td>
+                            <td class="tddata"><input type="radio" class="like1" name="like1"></td>
+                            <td class="tddata"><input type="radio" class="like1" name="like1"></td>
+                            <td class="tddata"><input type="radio" class="like1" name="like1"></td>
+                            <td class="tddata"><input type="radio" class="like1" name="like1"></td>
+                            <td class="tddata"><input type="radio" class="like1" name="like1"></td>
+                        </tr>
+                        <tr class="rowdata">
+                            <td>Recommend our product to other</td>
+                            <td class="tddata"><input type="radio" class="like2" name="like2"></td>
+                            <td class="tddata"><input type="radio" class="like2" name="like2"></td>
+                            <td class="tddata"><input type="radio" class="like2" name="like2"></td>
+                            <td class="tddata"><input type="radio" class="like2" name="like2"></td>
+                            <td class="tddata"><input type="radio" class="like2" name="like2"></td>
+                        </tr>
+                        <tr class="rowdata" style="background-color: rgb(226, 226, 226);">
+                            <td>Recommend our company to other</td>
+                            <td class="tddata"><input type="radio" class="like3" name="like3"></td>
+                            <td class="tddata"><input type="radio" class="like3" name="like3"></td>
+                            <td class="tddata"><input type="radio" class="like3" name="like3"></td>
+                            <td class="tddata"><input type="radio" class="like3" name="like3"></td>
+                            <td class="tddata"><input type="radio" class="like3" name="like3"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
             <div>
                 <p><label for="addcomment"><strong>Additional comments or suggestions</strong></label><br>
                     <textarea cols=70 rows=5 id="addcomment" placeholder="Your input please!"></textarea>
