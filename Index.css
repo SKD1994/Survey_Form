@@ -44,3 +44,9 @@ table,td{
 .checked{
     color: orange;
 }
+.textbox{
+    border-radius: 4px;
+}
+.mouse{
+    cursor: pointer;
+}
